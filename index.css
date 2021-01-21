@@ -1,14 +1,29 @@
 body {
+  height: 100vh;
+  margin: 0;
   background-color: #80c683 !important;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
+  justify-content: center;
   text-align: center;
 }
+/* Trick */
+/* body {
+  display: flex;
+  flex-direction: column;
+} */
 
 footer {
-  bottom: 0;
-  position: absolute;
+  margin-right: 10px;
+  text-align: end;
+  margin-top: auto;
+}
+
+#replace-options {
+  width: 50px;
 }
 
 #text-input {

@@ -21,12 +21,11 @@
       <select id="replace-options" onchange="handleTraduzir()">
         <option value="x">X</option>
         <option value="e">E</option>
-        <option value="u">U</option>
       </select>
     </header>
     <div class="d-flex justify-content-center mt-4">
       <div class="row col-md-11">
-        <div class="col-md-6">
+        <div class="col-md-6 mt-2">
           <textarea
             name="w3review"
             rows="15"
@@ -36,12 +35,12 @@
             id="text-input"
           ></textarea>
         </div>
-        <div class="col-md-6">
-          <textarea readonly id="translated-text"></textarea>
+        <div class="col-md-6 mt-2">
+          <textarea readonly rows="15" col="4" id="translated-text"></textarea>
         </div>
       </div>
     </div>
-    <footer>
+    <footer id="footer">
       <span>
         Criado por
         <a
