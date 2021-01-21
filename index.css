@@ -1,0 +1,25 @@
+body {
+  background-color: #80c683 !important;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+}
+
+#text-input {
+  width: 100%;
+  height: 100%;
+}
+
+#translated-text {
+  background-color: rgb(223, 223, 223);
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
